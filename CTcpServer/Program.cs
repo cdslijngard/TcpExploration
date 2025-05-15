@@ -5,6 +5,8 @@ public class Program
     static void Main()
     {
         // CTcpServer.Run();
-        ChatServerExample.Run();
+
+        var server = new ChatServerExample();
+        server.Run();
     }
 }
