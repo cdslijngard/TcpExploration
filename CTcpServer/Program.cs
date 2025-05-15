@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace CTcpServer;
 
-Console.WriteLine("Hello, World!");
+public class Program
+{
+    static void Main()
+    {
+        // CTcpServer.Run();
+        ChatServerExample.Run();
+    }
+}
